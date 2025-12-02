@@ -58,9 +58,30 @@
             font-style: italic;
             text-align: center;
         }
+
+        /* Styl dla przycisku pobierania */
+        .download-btn {
+            position: fixed;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 0 5px 5px 0;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+        }
+        .download-btn:hover {
+            background-color: #2980b9;
+        }
     </style>
 </head>
 <body>
+    <!-- Przycisk pobierania -->
+    <a class="download-btn" href="baritone-api-fabric-1.11.2.jar" download>Pobierz Baritone API</a>
+
     <header>
         <h1>Top 5 Cats</h1>
     </header>
